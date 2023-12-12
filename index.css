@@ -9,6 +9,12 @@ body {
   background-color: #222;
   opacity: 0.9;
 }
+::-webkit-scrollbar {
+  background-color: #222;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #a13913;
+}
 
 /*header start*/
 header {
@@ -77,3 +83,61 @@ header {
   color: #c9c9c9;
 }
 /*header end*/
+
+/*welcome start*/
+.welcome {
+  padding: 30px 170px;
+  width: 100%;
+}
+
+.welcome__text-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+.welcome__h {
+  color: #f1f1f1;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 100%;
+}
+.welcome__p {
+  color: #ff4c0d;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.welcome__butons {
+  width: 248px;
+  height: 54px;
+  border-radius: 108px;
+  border: 3px solid var(--f-1-f-1-f-1, #f1f1f1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.welcome__btn {
+  cursor: pointer;
+  display: flex;
+  padding: 15px 35px;
+  background-color: transparent;
+  border: none;
+  color: var(--f-1-f-1-f-1, #f1f1f1);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+}
+.active-btn {
+  display: flex;
+  padding: 15px 35px;
+  border-radius: 65px;
+  background: var(--f-1-f-1-f-1, #f1f1f1);
+  color: var(--151515, #151515);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  border: none;
+}
+/*welcome end*/
