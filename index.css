@@ -322,3 +322,10 @@ letter-spacing: -0.14px;
   letter-spacing: -0.14px;
 }
 /*design end*/
+/*safety start*/
+
+.safety__text {
+  margin-top: -23px;
+}
+
+/*safety end*/
