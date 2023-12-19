@@ -47,7 +47,6 @@ function showSlideArrow(n) {
 showSlideArrow(0);
 
 
-
 const btn = document.querySelector('.review__btn');
 const modal = document.querySelector('.element-modal-window');
 const closeBtn = modal.querySelector('.klose');
@@ -57,4 +56,16 @@ btn.addEventListener('click', () => {
 
 closeBtn.addEventListener('click', () => {
   modal.style.display = 'none';
+});
+
+
+const button = document.querySelector('.btn-questions');
+const modaln = document.querySelector('.element-modal-window-two');
+const closeButton = modaln.querySelector('.klose');
+button.addEventListener('click', () => {
+  modaln.style.display = 'block';
+});
+
+closeButton.addEventListener('click', () => {
+  modaln.style.display = 'none';
 });
