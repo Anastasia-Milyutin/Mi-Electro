@@ -69,3 +69,8 @@ button.addEventListener('click', () => {
 closeButton.addEventListener('click', () => {
   modaln.style.display = 'none';
 });
+const menu = document.querySelector('.menu-btn');
+const mobilMenu = document.querySelector('.header__menu');
+menu.addEventListener('click', () => {
+  mobilMenu.style.display = 'block';
+});
