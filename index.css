@@ -635,3 +635,148 @@ footer {
   color: var(--f-1-f-1-f-1, #f1f1f1);
 }
 /*footer end*/
+@media (max-width: 1358px) {
+  .photo__flex-buttons {
+    gap: 40px;
+    flex-direction: column;
+  }
+  .design {
+    padding: 0px 100px;
+  }
+  .scooter__img {
+    z-index: -20;
+  }
+}
+@media (max-width: 1095px) {
+  .element-block__text {
+    padding: 0px 20px;
+  }
+  .design__text {
+    left: 0px;
+  }
+  .questions {
+    padding: 100px;
+  }
+  footer {
+    padding: 50px 50px;
+  }
+  .disign__p {
+    width: 300px;
+  }
+  .welcome__h {
+    font-size: 60px;
+  }
+}
+@media (max-width: 900px) {
+  .design__text {
+    width: 0px;
+  }
+  .background__text {
+    left: 2%;
+  }
+  .photo__one {
+    width: 500px;
+  }
+  .background__text_mobil {
+    left: 15%;
+  }
+}
+@media (max-width: 850px) {
+  .phone {
+    width: 300px;
+  }
+  .reviews__h {
+    margin-left: 100px;
+  }
+  .scooter {
+    padding: 0px 50px;
+  }
+  .elipse {
+    display: none;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .header__menu {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  .welcome {
+    padding: 30px 50px;
+  }
+  .photo {
+    padding: 30px 50px;
+  }
+  .design__block-flex {
+    flex-direction: column;
+  }
+  .phone {
+    display: none;
+  }
+  .background__text_mobil {
+    left: 19%;
+  }
+  .scooter__img {
+    width: 600px;
+  }
+}
+@media (max-width: 670px) {
+  footer {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 564px) {
+  .button-block-flex {
+    padding: 0px 30px;
+  }
+  .block__review {
+    width: 360px;
+  }
+  .questions__flex {
+    flex-direction: column;
+  }
+  .welcome__h {
+    font-size: 40px;
+  }
+  .welcome__p {
+    font-size: 21px;
+  }
+  .photo__h {
+    font-size: 35px;
+  }
+  .photo__one {
+    width: 350px;
+  }
+}
+@media (max-width: 500px) {
+  .background__p {
+    width: 300px;
+  }
+  .background__text_mobil {
+    left: 23%;
+  }
+  .questions {
+    padding: 20px;
+  }
+  .design {
+    padding: 0px 30px;
+  }
+}
+@media (max-width: 400px) {
+  .welcome {
+    padding: 30px 10px;
+  }
+  .header__block-flex {
+    padding: 10px;
+  }
+  .block-text__p {
+    width: 300px;
+  }
+  .element-block__text {
+    padding: 0;
+  }
+  .reviews__h {
+    margin-left: 30px;
+  }
+}
